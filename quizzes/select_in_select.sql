@@ -45,5 +45,6 @@ WHERE 25000000 >= ALL(SELECT population FROM world y WHERE x.continent = y.conti
 SELECT name, continent FROM world x
 WHERE population / 3 > ALL(SELECT population 
                            FROM world y 
-                           WHERE x.continent = y.continent AND x.name != y.name);
+                           WHERE x.continent = y.continent 
+                           AND x.name != y.name);
 
