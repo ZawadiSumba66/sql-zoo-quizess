@@ -38,7 +38,7 @@ WHERE GDP >=1000000000000
 
 SELECT name, capitaL
 FROM world
-WHERE LEN(name)= LEN(capital
+WHERE LEN(name)= LEN(capital)
 
 SELECT name, capital
 FROM world
